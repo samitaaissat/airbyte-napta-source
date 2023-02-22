@@ -33,7 +33,7 @@ definitions:
       pagination_strategy:
         type: CursorPagination
         cursor_value: '{{ response[''links''][''next''] }}'
-        page_size: 30
+        page_size: 1000
     requester:
       $ref: "#/definitions/requester"
   base_stream:
